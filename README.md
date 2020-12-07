@@ -10,7 +10,7 @@ This is a repo of my solutions to the advent of code challenge [Advent of Code](
 | --- | --- | --- |---| --- | --- | --- |
 | 01 | :white_check_mark: | :white_check_mark: || 02 | :white_check_mark: | :white_check_mark: |
 | 03 | :white_check_mark: | :white_check_mark: || 04 | :white_check_mark: | :white_check_mark: |
-| 05 | :white_check_mark: |  || 06 |  |  |
+| 05 | :white_check_mark: | :white_check_mark: || 06 |  |  |
 | 07 |  |  || 08 |  |  |
 | 09 |  |  || 10 |  |  |
 | 11 |  |  || 12 |  |  |
