@@ -12,7 +12,7 @@ _directions = {
         'W' : { 'x': -1, 'y':0, 'r':0, 'f':0 },   #Move ship West
         'L' : { 'x': 0, 'y':0, 'r':-1, 'f':0 },   #Rotate ship left (anti-clockwise)
         'R' : { 'x': 0, 'y':0, 'r':1, 'f':0 },    #Rotate ship right (clockwise)
-        'F' : { 'x': 0, 'y':0, 'r':0, 'f':1 }     #Rotate ship right (clockwise)
+        'F' : { 'x': 0, 'y':0, 'r':0, 'f':1 }     #Move ship forward facing direction
         }
 
 _rotations = { 0: 'N', 90: 'E', 180: 'S', 270: 'W' }
@@ -56,3 +56,5 @@ for instruction in instructions:
 
 answer = abs(shipState['x']) + abs(shipState['y'])
 print ('Answer: ', answer)
+
+
