@@ -44,6 +44,7 @@ def digits_per_layer(layer, digit):
     return count
 
 
+
 layers = parse_input_data(_imageWidth, _imageHeight, data)
 
 minZeros = _imageWidth * _imageHeight
