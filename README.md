@@ -30,7 +30,7 @@ This is a repo of my solutions to the advent of code challenge [Advent of Code](
 | 03 | :white_check_mark: | :white_check_mark: || 04 | :white_check_mark: | :white_check_mark: |
 | 05 | :white_check_mark: | :white_check_mark: || 06 | :white_check_mark: | :white_check_mark: |
 | 07 | :white_check_mark: | :white_check_mark: || 08 | :white_check_mark: | :white_check_mark: |
-| 09 | :white_check_mark: | :white_check_mark: || 10 | :white_check_mark: |  |
+| 09 | :white_check_mark: | :white_check_mark: || 10 | :white_check_mark: | :white_check_mark: |
 | 11 |  |  || 12 |  |  |
 | 13 |  |  || 14 |  |  |
 | 15 |  |  || 16 |  |  |
