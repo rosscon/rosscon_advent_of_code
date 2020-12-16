@@ -65,7 +65,7 @@ def value_valid_for_ranges(value, ranges):
             #print ('Value: ', value, ' in Range: ', r)
             return True
 
-    print ('Value: ', value, ' not in Ranges: ', ranges)
+    #print ('Value: ', value, ' not in Ranges: ', ranges)
     return False
 
 
