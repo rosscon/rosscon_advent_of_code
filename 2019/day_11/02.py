@@ -13,7 +13,7 @@ def key_to_coordinate (key):
 
 
 # Gets the state of the panel the robot is currently on
-def get_panel_state (paintState, robotState, default = '.'):
+def get_panel_state (paintState, robotState, default = ' '):
 
     if robotState['location'] in paintState:
         return paintState[robotState['location']]
@@ -107,8 +107,7 @@ def print_paint_state(paintState, robotState):
                 if robotState['facing'] == 'E': print('>', end = '')
                 if robotState['facing'] == 'S': print('v', end = '')
                 if robotState['facing'] == 'W': print('<', end = '')
-        print('\n')
-    print()
+        print()
 
 
 
@@ -119,11 +118,12 @@ paintState={'0,0': '.'}
 robotState={'location': '0,0', 'facing': 'N'}
 
 programState = intcode.load_file_into_memory('input11.txt')
-programState['inIo'].append(0)
-programState['dbgOut'] = True
-colors = ['.','#']
+programState['inIo'].append(1)
+#programState['dbgOut'] = True
+colors = [' ','#']
 
 visited = {}
+
 
 print_paint_state(paintState, robotState)
 
@@ -131,6 +131,7 @@ while programState['haltState'] == 'RUNNING':
 
     programState = intcode.execute_interactive(programState)
     if programState['haltState'] == 'HALTED':
+        #print (programState)
         print ('HALT 1')
         break
 
@@ -148,9 +149,7 @@ while programState['haltState'] == 'RUNNING':
     robotState = move_robot(robotState)
 
     panelState = get_panel_state(paintState, robotState)
-    print(panelState, end = '')
     panelState = colors.index(panelState)
-    print(panelState)
 
     if robotState['location'] in visited:
         visited[robotState['location']] += 1
