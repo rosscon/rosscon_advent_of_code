@@ -123,6 +123,7 @@ def execute_instruction(instruction, pc, rb):
 
     if(instruction["ins"] == "int_input"):
         output = ex_int_input(inputs)
+        if output == 'REPEAT': return {'pc': pc, 'rb': rb}
 
     if(instruction["ins"] == "out_value"):
         output = ex_output_value(inputs)
@@ -168,6 +169,16 @@ def ex_int_input(inputs):
 
     global instanceState
 
+    if 'INPUT' in instanceState['haltFor']:
+        if len(instanceState['inIo']) < (instanceState['inPtr'] + 1):
+            instanceState['haltState'] = 'PAUSE_INPUT'
+            return 'REPEAT'
+        else:
+            intInput = int(instanceState['inIo'][instanceState['inPtr']])
+            instanceState['inPtr'] += 1
+            return intInput
+
+
     if(len(instanceState['inIo']) < (instanceState['inPtr'] + 1)):
         intInput = input("Enter an integer: ")
         return int(intInput)
@@ -183,7 +194,9 @@ def ex_output_value(inputs):
     if instanceState['dbgOut']:
         print('>>', inputs[0])
     instanceState['outIo'].append(inputs[0])
-    instanceState['haltState'] = 'PAUSE_OUTPUT'
+
+    if 'OUTPUT' in instanceState['haltFor']:
+        instanceState['haltState'] = 'PAUSE_OUTPUT'
 
 def ex_jump_if_true(inputs, pc):
     if inputs[0] != 0:
@@ -224,7 +237,8 @@ def load_file_into_memory(filename):
                  'outIo': [],
                  'inPtr' : 0,
                  'haltState' : 'RUNNING', #RUNNING, PAUSE_OUTPUT, PAUSE_INPUT, HALTED
-                 'dbgOut' : False
+                 'dbgOut' : False,
+                 'haltFor' : []
                  }
 
     instanceState = tmpState
