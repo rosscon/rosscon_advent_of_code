@@ -16,7 +16,7 @@ This is a repo of my solutions to the advent of code challenge [Advent of Code](
 | 11 | :white_check_mark: | :white_check_mark: || 12 | :white_check_mark: | :white_check_mark: |
 | 13 | :white_check_mark: | :white_check_mark: || 14 | :white_check_mark: | :white_check_mark: |
 | 15 | :white_check_mark: | :white_check_mark: || 16 | :white_check_mark: | :white_check_mark: |
-| 17 | :white_check_mark: | :white_check_mark: || 18 |  |  |
+| 17 | :white_check_mark: | :white_check_mark: || 18 | :white_check_mark: |  |
 | 19 |  |  || 20 |  |  |
 | 21 |  |  || 22 |  |  |
 | 23 |  |  || 24 |  |  |
