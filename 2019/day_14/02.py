@@ -80,7 +80,6 @@ oreUsed = 0
 root = reactions['FUEL']
 
 while oreUsed < targetOre and increment >= 1:
-    print (increment)
     tmpOreUsed = recurse_reactions(root, reactions, required = fuel)
 
     if tmpOreUsed > targetOre:
