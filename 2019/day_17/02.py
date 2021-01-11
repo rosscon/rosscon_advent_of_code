@@ -7,7 +7,7 @@ tiles = {
         60: '<', # Left
         62: '>', # Right
         94: '^', # Up
-        76: 'v', # Right
+        118: 'v', # Right
         88: 'X', # Fallen
         #10: '\n',# New Line
         }
