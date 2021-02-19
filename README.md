@@ -4,7 +4,7 @@ This is a repo of my solutions to the advent of code challenge [Advent of Code](
 
 
 
-## Overview 2020 Python
+## Overview 2020
 
 | Day | Part 1 | Part 2 ||Day | Part 1 | Part 2 |
 | --- | --- | --- |---| --- | --- | --- |
@@ -22,7 +22,7 @@ This is a repo of my solutions to the advent of code challenge [Advent of Code](
 | 23 | :white_check_mark: | :white_check_mark: || 24 | :white_check_mark: | :white_check_mark: |
 | 25 | :white_check_mark: | :white_check_mark: |||||
 
-## Overview 2019 Python
+## Overview 2019
 
 | Day | Part 1 | Part 2 ||Day | Part 1 | Part 2 |
 | --- | --- | --- |---| --- | --- | --- |
@@ -37,5 +37,5 @@ This is a repo of my solutions to the advent of code challenge [Advent of Code](
 | 17 | :white_check_mark: | :white_check_mark: || 18 | :white_check_mark: | :white_check_mark: |
 | 19 | :white_check_mark: | :white_check_mark: || 20 | :white_check_mark: | :white_check_mark: |
 | 21 | :white_check_mark: | :white_check_mark: || 22 | :white_check_mark: | :white_check_mark: |
-| 23 | :white_check_mark: | :white_check_mark: || 24 |  |  |
+| 23 | :white_check_mark: | :white_check_mark: || 24 | :white_check_mark: | :white_check_mark |
 | 25 |  |  |||||
