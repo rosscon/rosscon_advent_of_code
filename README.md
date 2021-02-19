@@ -38,4 +38,4 @@ This is a repo of my solutions to the advent of code challenge [Advent of Code](
 | 19 | :white_check_mark: | :white_check_mark: || 20 | :white_check_mark: | :white_check_mark: |
 | 21 | :white_check_mark: | :white_check_mark: || 22 | :white_check_mark: | :white_check_mark: |
 | 23 | :white_check_mark: | :white_check_mark: || 24 | :white_check_mark: | :white_check_mark: |
-| 25 |  |  |||||
+| 25 | :white_check_mark: | :white_check_mark: |||||
