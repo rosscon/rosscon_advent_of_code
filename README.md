@@ -6,7 +6,7 @@ This is a repo of my solutions to the advent of code challenge [Advent of Code](
 
 | Day | Part 1 | Part 2 ||Day | Part 1 | Part 2 |
 | --- | --- | --- |---| --- | --- | --- |
-| 01 |  |  || 02 |  |  |
+| 01 | :white_check_mark: | :white_check_mark: || 02 |  |  |
 | 03 |  |  || 04 |  |  |
 | 05 |  |  || 06 |  |  |
 | 07 |  |  || 08 |  |  |
